@@ -31,4 +31,22 @@ def is_in(x,y):
         return False
 print(is_in("hello","hello world"))  
 
-6)
+7) 
+ef func(numbers):
+    for i in range(1, len(numbers)):
+        if numbers[i] < numbers[i - 1]:
+            return(False)
+    return(True)
+    
+8) 
+a = 2
+b = 2
+c = 1
+def equal(a, b, c):
+      if a == b or a == c or b == a or b == c or c == b or c == a:
+         return True
+      else:
+         return false
+         
+priont(equal(a, b, c))
+   
