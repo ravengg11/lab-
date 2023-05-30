@@ -32,7 +32,7 @@ def is_in(x,y):
 print(is_in("hello","hello world"))  
 
 7) 
-ef func(numbers):
+def func(numbers):
     for i in range(1, len(numbers)):
         if numbers[i] < numbers[i - 1]:
             return(False)
